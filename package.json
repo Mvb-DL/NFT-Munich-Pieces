@@ -1,0 +1,87 @@
+{
+  "name": "nft_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.56.12",
+    "@react-three/fiber": "^8.10.1",
+    "@react-three/rapier": "^0.13.2",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "ethers": "^5.7.2",
+    "etherscan-api": "^10.3.0",
+    "ol": "^7.2.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-bootstrap": "^2.7.0",
+    "react-collapsed": "^3.6.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-leaflet": "^4.2.0",
+    "react-redux": "^8.0.5",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.3.4",
+    "react-three": "^0.9.7",
+    "react-three-fpscontrols": "^0.2.0",
+    "react-transition-group": "^2.9.0",
+    "reactjs-popup": "^2.0.5",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "styled-components": "^5.3.6",
+    "three": "^0.149.0",
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.11",
+    "husky": "^4.3.8",
+    "prettier": "^2.8.1",
+    "pretty-quick": "^2.0.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint",
+      "pretty-quick — staged",
+      "git add"
+    ]
+  }
+}
