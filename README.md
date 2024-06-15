@@ -1,8 +1,10 @@
  
-Konkrete Problemstellung: 
-1.	Problem 
+#Konkrete Problemstellung: 
+
+1.	Problem
 Bürger*innen fühlen sich oft ausgegrenzt und fremdbestimmt was lokale/urbane Entwicklung und Gestaltung bzw. deren Entscheidungsfindung betrifft, oft wissen diese Bürger*Innen zudem nicht inwiefern sie derartige Entscheidungen beeinflussen können. Es fehlt an Kommunikationskanälen zwischen Bürger*Innen und der Stadt, aktuelle Entscheidungen nach außen zu tragen. Dementsprechend bekommen Bürger*innen in vielen Fällen nicht mit, wenn Entscheidungen getroffen werden, die ihre direkte Lebensrealität, vor allem in Bezug auf öffentliche Einrichtungen und kulturelle Güter, beeinflussen.
 Daraus resultiert, dass Kunstwerke, Denkmäler und Staatsschätze in vielerlei Fällen nur wenig Beachtung durch die Bevölkerung erfahren. Den Bürger*innen fehlt der direkte Bezug/Zugang und somit ist der kulturelle Aspekt einer Stadt für diese oft irrelevant. Trotz wenig Bezug, haben diese historischen Güter ihre Daseinsberechtigung und müssen erhalten bleiben. Was für Länder, Städte und Kommunen zusätzliche Kosten bedeutet. Kosten die für eine sinngemäße Erhaltung vieler Kunstwerke dieses Sektors langfristig kaum zu bewerkstelligen sind.
+
 2.	Problem
 Die Blockchain-Technologie und die dazugehörigen Subkategorien, wie Smart Contracts und NFTs erreichen ein immer stärker werdende Präsenz in Gesellschaft und Arbeitswelt. Diese Technologie zunehmend von staatlichen Einrichtungen mit Erfolg eingesetzt (siehe Abschnitt). Dennoch besteht das Problem, dass die Einstiegshürden in diese Technologie für Bürger und staatliche Einrichtungen sehr hoch sind. Zu dem entsprechen aktuelle Blockchain Technologien und Konzepte nicht mit deutschen Gesetzmäßigkeiten und können innerhalb eines staatlichen Kontextes zu keiner Anwendung finden.
 Es besteht die Gefahr, dass deutsche staatliche Einrichtungen wiederholt die Digitale Transformation vor allem in Bezug auf Smart Cities (siehe Abschnitt) und der Blockchain-Technologie verpassen. 
@@ -29,7 +31,8 @@ Das Projekt Munich Pieces dient als Türöffner für die Blockchain-Technologie 
 Das bedeutet, das die Blockchain dafür verwendet werden soll Dokumente zu speichern und zu versenden, eindeutige Zugehörigkeiten von Dokumenten Nutzern zu zuordnen, sensible Daten zu verwalten und spätere Änderungen von Dokumenten zu verhindern (Fälschungssicherheit).
 Hierbei muss stark von aktuellen Konzepten und Anwendungen auf dem Markt abgewichen werden. Nach einer erfolgreichen Einführung des Projekt Munich Pieces wird damit begonnen, das Konzept einer staatlichen Blockchain zu entwickeln und diese zu Implementieren.
 
-Resultierende Vorteile für die Stadt München und ihre Bürger (Zusammenfassung)
+#Resultierende Vorteile für die Stadt München und ihre Bürger (Zusammenfassung)
+
 Für die Stadt
 •	Frühzeitige Digitale Transformation mit der Blockchain-Technologie hin zu einer Smart City
 •	Unentbehrliche Erfahrung bei der Migration von Blockchain-Technologie in einem bürokratischen Umfeld
@@ -46,7 +49,7 @@ Für die Bürger
 •	Vermittlung des Gefühls in einer modernen Stadt zu leben, vor allem in Konkurrenz zu anderen Städten wie Frankfurt (Fintech-Bereich) und Berlin (Kunstbereich)
 •	Nutzen der entwickelten Blockchain-Infrastruktur für eigene Unternehmungen und Projekte
 
-Ausführliche technische Beschreibung der Applikation Munich Pieces (stand 16.2.2023)
+#Ausführliche technische Beschreibung der Applikation Munich Pieces (stand 16.2.2023)
 Munich Pieces ist eine Web-Applikation, welche im Frontend ReactJS und im Backend Django verwendet. Diese Web-Applikation ist an das Ethereum Netzwerk angeschlossen. Die verwendete Kryptowallet für Transaktionen auf der Blockchain ist MetaMask. 
 Es ist möglich, dass sich ein Nutzer einen Account anlegen, bearbeitet und löschen kann. Er ist darüber hinaus im Stande Produkte, welche zur Verfügung stehen dem Warenkorb hinzuzufügen, zu löschen oder zu erwerben. Um Produkte zu kaufen muss der Nutzer über einen Account bei MetaMask verfügen. Zu dem muss der Nutzer über einen bestimmten Umfang an Kryptowährung auf seinem Konto verfügen, um ein Munich Piece zu kaufen. 
 Die verwendeten Smart Contracts für die NFTs basieren dabei auf dem ERC-721 Standard und werden mittels Solidity implementiert.
@@ -68,7 +71,7 @@ Risiken und Herausforderungen:
 -	Vor allem bürokratische Hürden und rechtliche Aspekte
 -	Migration bestehender NFTs der aktuellen Blockchain auf neue Blockchain-Lösung
 
-Abhängigkeiten und Aufwandseinschätzung:
+#Abhängigkeiten und Aufwandseinschätzung:
 1.	Um eine erfolgreiche Umsetzung der Anwendung zu garantieren muss die Stadt als offizieller Partner fungieren und einen Handel mit den Gebieten, Historischen Gebäude, Kunstwerke usw. in Form von NFTs zu unterstützen.
 2.	Darüber hinaus ist der Aufbau einer hauseigenen NFT Handelsplattform nötig. Die Applikation von Munich Pieces ist schon recht fortgeschritten und bedarf ca. noch 1 Monat (ab 1.3.2023) um abgeschlossen zu werden. Die Integration und Entwicklung einer individuellen Blockchain-Technologie beansprucht, in Bezug auf Konzept-Erstellung und Implementierung, darüber hinaus wesentlich mehr Zeit. Jedoch ist es möglich bis dahin mit diversen Alternativen zu arbeiten (siehe 3.).
 3.	Um NFTs zu verkaufen bedarf es einer Blockchain, diese Blockchain Struktur ist noch fraglich. Es existieren drei Optionen
@@ -77,7 +80,7 @@ Abhängigkeiten und Aufwandseinschätzung:
 3.	Blockchain-as-a-Service (BaaS) durch Microsoft Azure, SAP Cloud Platform Blockchain, R3, AWS, Govdigital, Itransation, MobiDev usw. – Kosten variierend, Angebot nötig -Zeitaufwand 1 bis 3 Monate
 Langfristig ist es jedoch wahrscheinlich, dass eine individuelle Blockchain-Lösung (siehe Punkt 3.2) notwendig ist und anschließend ebenfalls als BaaS angeboten wird.
 
-Roadmap für die Zukunft
+#Roadmap für die Zukunft
 1.	Ausbau der bestehenden Applikation
 Die Web-Applikation ist bereits recht fortgeschritten und funktional betrachtet abgeschlossen. Bevor das Projekt jedoch veröffentlicht werden kann müssen noch Aspekte, wie IT Security, Design, Usability und Benutzerfreundlichkeit und Einhaltung diverser Gesetzmäßigkeiten (Datenschutzgrundverordnung) bearbeitet werden. Darüber hinaus müssen noch andere rechtliche Aspekte berücksichtigt werden, so z.B. unter anderem das Eigentumsrecht, Verkaufsrecht öffentlicher Güter etc. 
 2.	Konzeptentwicklung der staatlichen Blockchain
@@ -97,7 +100,7 @@ Wird das NFT dezentral gespeichert, so ist der Erwerber vor Zugriff auf das Refe
 Binnen der folgenden 18 Monate (stand 7.2022) soll die europäische Kommission überprüfen, ob bezüglich des NFT Marktes Regelungen getroffen werden müssen. 
 
 
-Fragen und Antworten
+#Fragen und Antworten
 
 Frage	Antwort
 Was verkaufen wir wirklich?	Verkauft wird eine Blockchain Lösung. NFT Munich Pieces soll dabei als Einstiegsprojekt dienen, um den Weg für das Einführen der Technologie zu bereiten.
@@ -126,7 +129,7 @@ Was müssen wir anders machen, als bei herkömmlichen Blockchains?
 *Mitbestimmungsrecht und Besitztum Rechte müssen im Einzelfall geklärt werden
 
 
-Anhang und Quellen:
+#Anhang und Quellen:
 •	NFTs in Smart Cities: Vision, Applications, and Challenges:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9931499
 •	Solana and Proof of History:
