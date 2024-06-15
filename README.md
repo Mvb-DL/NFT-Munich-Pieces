@@ -1,5 +1,5 @@
  
-#Konkrete Problemstellung:# 
+#Konkrete Problemstellung:
 
 1.	Problem
 Bürger*innen fühlen sich oft ausgegrenzt und fremdbestimmt was lokale/urbane Entwicklung und Gestaltung bzw. deren Entscheidungsfindung betrifft, oft wissen diese Bürger*Innen zudem nicht inwiefern sie derartige Entscheidungen beeinflussen können. Es fehlt an Kommunikationskanälen zwischen Bürger*Innen und der Stadt, aktuelle Entscheidungen nach außen zu tragen. Dementsprechend bekommen Bürger*innen in vielen Fällen nicht mit, wenn Entscheidungen getroffen werden, die ihre direkte Lebensrealität, vor allem in Bezug auf öffentliche Einrichtungen und kulturelle Güter, beeinflussen.
